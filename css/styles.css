@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0760F5;
+}
+
+/* Home */
+
+#header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    background-color: #0760F5;
+    justify-content: flex-end;
+    opacity: 0.9;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#header-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.header-item{
+    color: white;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center; 
+    align-self: center;
+}
+
+.headerLink{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    border: 1.5px solid #0760F5;
+ }  
+
+.headerLink:hover{
+    background-color: #3962A8;
+    border: 1.5px solid #F5E153;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+
+#content {
+    position: relative;
+    margin-top: 12vh;
+    z-index: 50;
+}
+
+#inicio{
+    background-color: #5475DE;
+    height: 75vh;
+    color: white;
+}
+
+#wallpaper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+#wallpapertitle{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+#hugeTitle{
+    font-size: 70px;
+}
+
+.icon{
+    width: 250px;
+}
+
+#landingPage {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50vh;
+}
+
+.title{
+    text-align: center;
+    width: 50%;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px    ;
+    border-bottom: black 1.5px solid;
+}
+
+.text{
+    width: 50%;
+    text-align: justify;
+}
+
+
+
+@media(max-width: 570px){
+    #header{
+        position: relative;
+        height: auto;
+    }
+
+    #content {
+        position: relative;
+        margin-top: 0px;
+    }
+
+    #inicio{
+        background-color: #5475DE;
+        height: auto;
+        color: white;
+    }
+
+    #title{   
+        font-size: 30px;
+    }
+    
+    #hugeTitle{
+        font-size: 50px;
+    }
+
+}
+
