@@ -92,26 +92,24 @@ body{
 }
 
 #landingPage {
-    height: 100vh;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bigBox{
+.box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
-    
-    height: 50vh;
+    height: 80vh;
 }
 
 .title{
     text-align: center;
-    width: 50%;
+    width: 80%;
     font-size: 50px;
     margin-bottom: 30px;
     font-weight: bolder;
@@ -120,9 +118,77 @@ body{
 }
 
 .text{
-    width: 50%;
+    width: 90%;
     text-align: justify;
 }
+
+#importancia{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fed330;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.title2{
+    text-align: center;
+    width: 50%;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.cards{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.card{  
+    width: 250px;
+    height: 400px;
+    background-color: white;   
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 6px -6px black;
+    border: 1px solid black;
+}
+
+.card-img{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+.icon-card{
+    width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px
+}
+
+.card-text{
+    font-size: 13px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+
 
 
 
@@ -149,6 +215,18 @@ body{
     
     #hugeTitle{
         font-size: 50px;
+    }
+
+    .box{
+        width: 100%;
+    }
+    
+    .title{
+       width: 90%;
+    }
+    
+    .text{  
+        width: 90%;
     }
 
 }
